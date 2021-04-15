@@ -1,0 +1,176 @@
+body {
+    font-size: 18px;
+    font-family: Kumbh Sans;
+    background-color: hsl(185, 75%, 39%);
+}
+
+/* BACKGROUND CIRCLES */
+
+#top-circle {
+    position: absolute;
+    z-index: -100;
+    right: 680px;
+    bottom: 230px;
+}
+
+#bottom-circle {
+    position: fixed;
+    z-index: -100;
+    left: 600px;
+    top: 330px;
+}
+
+/* CARD */
+
+#card {
+    width: 350px;
+    height: 55%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    border-radius: 20px;
+    background-color: white;
+}
+
+#pattern-card {
+    position: absolute;
+    height: 36%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+#profile-pic {
+    border-radius: 70px;
+    border: 7px solid white;
+    position: absolute;
+    left: 33%;
+    top: 26%;
+    width: 30%;
+}
+
+#personal-info {
+    width: 100%;
+    position: absolute;
+    top: 56%;
+}
+
+#line-break {
+    position: relative;
+    top: 290px;
+    background-color: black;
+    width: 100%;
+    height: 1px;
+    opacity: 0.1;
+
+}
+
+#city,
+#personal-info p span {
+    color: hsl(227, 10%, 46%);
+    font-weight: 100;
+    margin-left: 5px;
+
+}
+
+#name-age {
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+
+
+#city {
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+#city,
+#name-age {
+    text-align: center;
+}
+
+br {
+    border: 1px solid black;
+    height: 2px;
+}
+
+#counter {
+    position: relative;
+    top: 79%;
+    display: flex;
+}
+
+.counters {
+    width: 100%;
+}
+
+.category {
+    color: hsl(227, 10%, 46%);
+    font-size: 0.6em;
+}
+
+#counter p {
+    text-align: center;
+}
+
+.count {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.category {
+    margin-top: 5px;
+}
+
+/* ATTRIBUTION */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 654px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media (max-width: 375px) {
+    #top-pattern {
+        position: absolute;
+        z-index: -100;
+        right: 150px;
+    }
+
+    #bottom-pattern {
+        position: fixed;
+        z-index: -100;
+        left: 150px;
+    }
+
+    #card {
+        width: 79%;
+        height: 55%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 20px;
+        background-color: white;
+    }
+
+    #pattern-card {
+        position: absolute;
+        height: 36%;
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+    }
+
+
+}
